@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 2</title>
+    <link href="output.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body class="font-lato">
+  <header>
+    <div class="container mx-auto">
+        <div class="relative bg_image_header w-full h-[39rem] sm:h-[49.313rem]">
+           <div class="relative z-100 header flex justify-between px-[0.938rem] bg-[#FFFFFF] xl:bg-transparent xl:px-0 xl:justify-center py-[1.313rem] items-center xl:gap-[2.25rem] 3xl:gap-[4.875rem] ">
+                <div class="logo_header">
+                    <img src="img/logo_header.png" alt="logo_img">
+                </div>
+                <div id="top-menu" class="hidden header_menu xl:text-[0.813rem] 2xl:text-[1rem] xl:flex xl:gap-[1.25rem] 2xl:gap-[2rem] xl:items-center xs:items-start">
+                    <ul>
+                        <li>
+                            <a href="#">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="#">Đối tượng khách hàng</a>
+                        </li>
+                        <li>
+                            <a href="#">Quy trình</a>
+                        </li>
+                        <li>
+                            <a href="#">Bảng giá</a>
+                        </li>
+                        <li>
+                            <a href="#">Cảm nhận của khách hàng</a>
+                        </li>
+                        <li>
+                            <a href="#">Đội ngũ bác sĩ</a>
+                        </li>
+                        <li>
+                            <a href="#">Hình ảnh & video</a>
+                        </li>
+                    </ul>
+                    <div class="flex phone_menu_header">
+                        <div  class="flex px-[0.625rem] xl:px-0 xl:pr-[0.75rem] xl:pl-[0.375rem] h-[2.5rem] items-center gap-[0.25rem] justify-around bg-gradient-to-br from-[#FFB464] to-[#E57709] hover:bg-gradient-to-br hover:from-[#FFD27A] hover:to-[#FF9B30] rounded-[1.25rem]  phone_shadow transition-all ease-in-out duration-300">     
+                            
+                                <div class=" w-[1.75rem] h-[1.75rem] rounded-full bg-white flex justify-center items-center cursor-pointer">
+                                    <a  href="tel: 1900 1806" class="flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[1.25rem] h-[1.25rem]">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" class=" text-[#E57709]"/>
+                                        </svg>
+                                    </a>
+                                    
+                                </div>
+                            
+                            
+                                <p class="xs:text-[0.813rem] 2xl:text-[1rem] text-white font-[700]  font-lato"> 
+                                    <a href="tel: 1900 1806" class=" flex text-[1rem] pb-[1rem]!important"> Gọi 1900 1806</a>
+                                </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="xl:hidden">
+                    <a href="#">
+                        <svg id="toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                          </svg>
+                    </a>
+                      
+                </div>
+           </div>
+        <div id="menu-overlay" class="menu-overlay hidden absolute"></div>
+        <div class="absolute bottom-0 3xl:right-[8.75rem] img_doctor_header sm:right-[3.75rem] right-[1rem]">
+            <img src="img/img_doctor1.png" alt="img_doctor">
+        </div>
+        <div class="absolute flex flex-col gap-[1rem] sm:gap-[1.5rem] 2xl:top-1/4 top-[20%] 3xl:left-[16rem] 2xl:left-[5rem] left-[1.5rem]">
+            <h2 class="text-[#252525] font-[700] 2xl:text-[3.5rem] lg:text-[2.375rem] sm:text-[2rem] text-[1.25rem]">Dịch vụ Khám bệnh tại nhà </br>An tâm chẳng lo ngại đường xa</h2>
+            <p class="max-w-[30rem] xl:max-w-[37rem] 2xl:max-w-[40.938rem] text-[#454545] sm:text-[1rem] text-[0.813rem] pr-[0.938rem] sm:pr-0 font-[400] mb-0 sm:mb-[1.5rem]">Bệnh viện Đa khoa Phương Đông triển khai dịch vụ khám bệnh tại nhà giúp các gia đình có con nhỏ, người cao tuổi, khó đi lại... được hưởng sự chăm sóc y tế cao cấp, an toàn, hiệu quả.</p>
+            <button class="flex items-center  w-[7.5rem] justify-evenly font-semibold bg-gradient-to-b from-[#FFB469] to-[#E57709] hover:from-[#FFD27A] hover:to-[#FF9B30] rounded-[1.438rem] uppercase text-[#FFFFFF] shadow-text-res
+            sm:justify-center sm:w-[10rem] md:w-[14.375rem] 2xl:w-[13.438rem] h-[2.625rem] sm:h-[2.875rem]  sm:space-x-[0.5rem]">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="sm:w-[1.5rem] sm:h-[1.5rem] w-[1rem] h-[1rem]">
+                <path d="M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712ZM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32l8.4-8.4Z" />
+                <path d="M5.25 5.25a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3V13.5a.75.75 0 0 0-1.5 0v5.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V8.25a1.5 1.5 0 0 1 1.5-1.5h5.25a.75.75 0 0 0 0-1.5H5.25Z" />
+              </svg>
+              
+              
+            <a href="#" class="font-[700] text-[0.563rem] sm:text-[0.75rem] md:text-[1rem]">Đăng ký tư vấn</a>
+        </button>
+        </div>
+        </div>
+        
+
+    </div>
+  </header>
+
+ <!-- section banner -->
+
+    <section class="section_banner ">
+        <div class="container mx-auto">
+            <div class="relative flex flex-col xl:flex-row gap-0 xl:gap-[12.5rem] xl:pt-[12.5rem] md:pt-[8.5rem] sm:pt-[7.5rem] mt-[4.5rem]">
+                <div class="relative w-[19rem] h-[16.188rem] sm:w-[22rem] md:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]  rounded-[1.25rem]">
+                    <div class=" bg_banner_skew w-[19rem] h-[16.188rem] sm:w-[22rem] md:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]   absolute">
+                        
+                    </div>
+                   <div class="absolute h-[18.063rem] w-[15.688rem] sm:w-[28.688rem] sm:h-[32.063rem]  md:w-[35.688rem] md:h-[40.063rem] 2xl:w-[45.688rem] 2xl:h-[50.063rem] doctor_image_banner sm:left-[6.813rem] sm:bottom-[4.5rem] left-[1.7rem] bottom-[1.7rem] md:bottom-[0.6rem] xl:bottom-[2.4rem] 2xl:bottom-[4.063rem]">
+                        <img src="img/doctor_banner2.png">
+                   </div>
+                   <div class="md:flex hidden absolute top-[-3.938rem] right-[-3.188rem] border-[0.5rem] w-[2.5rem] h-[2.5rem] rounded-full border-[#FFC700]">
+                   
+                        
+                   </div>
+                </div>
+                <div class=" pt-0 md:pt-[4.5rem] 2xl:pt-[6.25rem] text-justify px-[0.938rem] xl:px-0">
+                    <div>
+                        <div class="flex items-center text-center gap-[0.75rem]">
+                            <p class="w-[4.313rem] h-[0.063rem] bg-gradient-to-br from-[#3EED8B] to-[#0A9949]"></p>
+                            <p class="font-[700] uppercase text-[0.875rem] bg-gradient-to-br from-[#3EED8B] to-[#0A9949] bg-clip-text text-transparent tracking-[0.188rem]">Giới thiệu</p>
+                        </div>
+                        <h2 class="max-w-[37rem] mt-[0.5rem] lg:max-w-[43.75rem] xl:max-w-[40.5rem] text-[1.25rem] sm:text-[2rem] md:text-[2.375rem] sm:leading-[2.875rem] font-[700] text-[#252525] leading-[1.75rem] mb-[1rem] sm:mb-[1.5rem]">Tạo ra tâm lý thoải mái, hỗ trợ điều trị tích cực cho người bệnh</h2>
+                        
+                            <p class="max-w-none xl:max-w-[48rem] text-[#454545] font-[400] text-[0.813rem] sm:text-[1rem] mb-[1rem] sm:mb-[1.5rem] md:mb-[2.5rem]">
+                                Dịch vụ khám bệnh tại nhà có thể áp dụng với mọi đối tượng người bệnh, đặc biệt tiện lợi đối với những người gặp khó khăn khi di chuyển, người già neo đơn, người khuyết tật, gia đình có trẻ nhỏ…</br></br>
+                                Trẻ nhỏ, cũng như người già, là đối tượng rất dễ mắc bệnh do hệ miễn dịch chưa hoàn thiện, sức đề kháng kém. Nhiều cha mẹ e ngại việc đưa trẻ đi khám chữa bệnh ở bệnh viện, trạm xá đông người vì sợ lây nhiễm chéo. Giờ đây, với dịch vụ khám tại nhà, cha mẹ và bé không cần chịu đựng tình trạng quá tải, đợi chờ để thăm khám hay mất nhiều thời gian và công sức di chuyển để chăm bé.</br></br>
+    
+                                Người cao tuổi dễ mắc các bệnh về cơ xương khớp, huyết áp, tim mạch, tiểu đường.... Đây là những bệnh khó điều trị khỏi dứt điểm mà chỉ có thể kiểm soát, phải thường xuyên theo dõi và chăm sóc. Dịch vụ khám bệnh tại nhà sẽ giúp các gia đình chăm sóc người già ngay tại nơi ở là giải pháp y tế tiện lợi, tiết kiệm thời gian, xử trí các tình huống bất ngờ một cách kịp thời và nhanh chóng.
+                            </p>
+                            <div class="flex gap-[1.5rem]">
+                                <button class="flex items-center  w-[7.5rem] justify-evenly  bg-gradient-to-b from-[#FFB469] to-[#E57709] hover:from-[#FFD27A] hover:to-[#FF9B30] rounded-[1.438rem] uppercase text-[#FFFFFF] shadow-text-res
+                                sm:justify-center sm:w-[10rem] md:w-[14.375rem] 2xl:w-[13.438rem] h-[2.625rem] sm:h-[2.875rem]  sm:space-x-[0.5rem]">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="sm:w-[1.5rem] sm:h-[1.5rem] w-[1.25rem] h-[1.25rem]">
+                                    <path d="M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712ZM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32l8.4-8.4Z" />
+                                    <path d="M5.25 5.25a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3V13.5a.75.75 0 0 0-1.5 0v5.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V8.25a1.5 1.5 0 0 1 1.5-1.5h5.25a.75.75 0 0 0 0-1.5H5.25Z" />
+                                  </svg>
+                                  
+                                  
+                                <a href="#" class="font-[700] text-[0.563rem] sm:text-[0.75rem] md:text-[1rem]">Đăng ký tư vấn</a>
+                            </button>
+    
+                            <button class="px-0 justify-evenly md:px-[1.438rem] py-[0.688rem] flex items-center w-[8.125rem] sm:w-[10.625rem]  md:w-[15rem] md:justify-between text-[#FFF] font-[700]  bg-gradient-to-b from-[#3EED8B] to-[#0A9949] hover:from-[#6FF7A4] hover:to-[#3BAF73] rounded-[1.438rem] shadow_phone_banner uppercase">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[1.25rem] h-[1.25rem] sm:w-[1.5rem] sm:h-[1.5rem]">
+                                    <path d="M17.093 15.7479C16.8792 15.3774 16.5785 15.0646 16.2168 14.8363C15.855 14.608 15.4432 14.4711 15.0168 14.4376C14.5903 14.404 14.1622 14.4747 13.7692 14.6436C13.3762 14.8125 13.0302 15.0745 12.761 15.4069C12.6541 15.5377 12.5195 15.643 12.3669 15.7154C12.2142 15.7877 12.0474 15.8253 11.8785 15.8253C11.7096 15.8253 11.5428 15.7877 11.3902 15.7154C11.2376 15.643 11.103 15.5377 10.996 15.4069C10.3616 14.661 9.79285 13.8617 9.29604 13.0179C8.81468 12.1644 8.40751 11.2711 8.07904 10.3479C8.02 10.1872 7.99736 10.0154 8.01275 9.84493C8.02815 9.67442 8.08118 9.50946 8.16804 9.36193C8.25168 9.21694 8.36714 9.09282 8.50572 8.99894C8.64429 8.90505 8.80237 8.84385 8.96804 8.81993C9.38947 8.75176 9.78803 8.58225 10.1295 8.32599C10.4709 8.06972 10.745 7.73436 10.9281 7.34875C11.1113 6.96314 11.1981 6.53881 11.181 6.11225C11.1639 5.68569 11.0435 5.26966 10.83 4.89993L9.44404 2.49993C9.24445 2.15395 8.96884 1.85786 8.63804 1.63401C8.30724 1.41017 7.9299 1.26442 7.53452 1.20779C7.13913 1.15115 6.73605 1.18511 6.35571 1.30709C5.97537 1.42908 5.62773 1.6359 5.33904 1.91193L4.86504 2.36493C3.73731 3.43117 2.95809 4.81331 2.62957 6.33012C2.30105 7.84694 2.43855 9.42762 3.02404 10.8649C3.64831 12.4183 4.37801 13.9271 5.20804 15.3809C6.06543 16.8502 7.02408 18.2579 8.07704 19.5939C8.80792 20.5176 9.7385 21.2638 10.7989 21.7764C11.8594 22.2891 13.0222 22.5549 14.2 22.5539C14.9605 22.5544 15.7168 22.4415 16.444 22.2189L17.015 22.0419C17.3928 21.9248 17.7393 21.724 18.0288 21.4547C18.3183 21.1853 18.5435 20.8542 18.6876 20.4859C18.8317 20.1176 18.891 19.7216 18.8611 19.3272C18.8313 18.9329 18.713 18.5503 18.515 18.2079L17.093 15.7479Z" fill="white"/>
+                                    <path d="M17.0099 13.6611C16.971 13.661 16.9322 13.658 16.8939 13.6521C16.6973 13.6213 16.5209 13.5138 16.4036 13.3531C16.2862 13.1924 16.2374 12.9917 16.2679 12.7951C16.3143 12.5057 16.3381 12.2132 16.3389 11.9201C16.3382 10.8834 16.0312 9.86996 15.4563 9.00722C14.8814 8.14447 14.0644 7.47089 13.1079 7.0711C13.0162 7.03343 12.933 6.97798 12.8629 6.90795C12.7928 6.83792 12.7373 6.75471 12.6996 6.66311C12.6619 6.57151 12.6427 6.47334 12.6431 6.37427C12.6435 6.27521 12.6635 6.17721 12.702 6.08593C12.7405 5.99465 12.7968 5.91191 12.8674 5.84247C12.9381 5.77304 13.0218 5.7183 13.1137 5.6814C13.2057 5.6445 13.304 5.62619 13.4031 5.62751C13.5021 5.62883 13.5999 5.64976 13.6909 5.6891C14.9196 6.203 15.969 7.06872 16.707 8.1774C17.4451 9.28608 17.8389 10.5882 17.8389 11.9201C17.8381 12.2905 17.8083 12.6603 17.7499 13.0261C17.7226 13.2029 17.6331 13.364 17.4974 13.4805C17.3616 13.597 17.1887 13.661 17.0099 13.6611Z" fill="white"/>
+                                    <path d="M20.9501 14.3111C20.9078 14.3109 20.8657 14.3072 20.8241 14.3001C20.7269 14.2836 20.634 14.2482 20.5506 14.1958C20.4672 14.1434 20.3949 14.0751 20.3379 13.9948C20.2809 13.9145 20.2402 13.8237 20.2183 13.7277C20.1964 13.6316 20.1936 13.5322 20.2101 13.4351C20.2953 12.9346 20.3385 12.4278 20.3391 11.9201C20.3424 10.0924 19.8023 8.30487 18.7873 6.78479C17.7724 5.26471 16.3285 4.08067 14.6391 3.38312C14.5446 3.34777 14.4582 3.29372 14.3851 3.22421C14.312 3.1547 14.2536 3.07115 14.2136 2.97857C14.1735 2.88599 14.1525 2.78627 14.1519 2.68539C14.1512 2.58451 14.171 2.48454 14.2099 2.39146C14.2488 2.29838 14.306 2.2141 14.3783 2.14367C14.4505 2.07325 14.5362 2.01811 14.6302 1.98158C14.7243 1.94504 14.8247 1.92785 14.9255 1.93104C15.0264 1.93422 15.1255 1.95772 15.2171 2.00012C17.18 2.81132 18.8576 4.18765 20.0366 5.95429C21.2157 7.72093 21.8431 9.79816 21.8391 11.9221C21.8386 12.514 21.7881 13.1048 21.6881 13.6881C21.6581 13.8623 21.5677 14.0202 21.4327 14.1342C21.2977 14.2482 21.1268 14.3108 20.9501 14.3111Z" fill="white"/>
+                                    </svg>
+                                <a href="#" class="font-[700] text-[0.563rem] sm:text-[0.75rem] md:text-[1rem]">Gọi cho chúng tôi</a>                                
+                            </button>
+    
+                            </div>
+                    </div>
+                </div>
+                <div class="absolute icon_shape__banner right-0 top-[1rem] hidden lg:flex">
+                    <img src="img/icon_banner.png">
+                </div>
+                <div class="hidden md:flex absolute 3xl:right-[7rem] bottom-[-2.5rem] xl:bottom-[-5.5rem] 2xl:bottom-[-3.5rem] right-0">
+                    <svg class="w-[3.75rem] h-[3.75rem] 2xl:w-[8.25rem] 2xl:h-[5.438rem]" width="84" height="87" viewBox="0 0 84 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M42 80C61.33 80 77 63.6584 77 43.5C77 23.3416 61.33 7 42 7C22.67 7 7 23.3416 7 43.5C7 63.6584 22.67 80 42 80Z" stroke="url(#paint0_linear_1_12235)" stroke-width="14" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_1_12235" x1="7" y1="43.5" x2="77" y2="43.5" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#16A085"/>
+                        <stop offset="1" stop-color="#F4D03F"/>
+                        </linearGradient>
+                        </defs>
+                        </svg>
+                        
+                </div>
+              
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script type="module" src="js/main.js" defer></script>
+ 
+</body>
+</html>
