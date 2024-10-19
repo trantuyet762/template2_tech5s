@@ -1412,6 +1412,10 @@ video {
     bottom: 0.9rem;
   }
 
+  .md\:bottom-\[0rem\] {
+    bottom: 0rem;
+  }
+
   .md\:mb-\[2\.5rem\] {
     margin-bottom: 2.5rem;
   }
@@ -1479,6 +1483,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:bottom-\[0\.9rem\] {
+    bottom: 0.9rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
