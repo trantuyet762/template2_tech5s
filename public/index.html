@@ -22,7 +22,7 @@
     
   <header>
     <div class="container mx-auto">
-        <div class="relative bg_image_header w-full h-[39rem] sm:h-[49.313rem]">
+        <div class="overflow-hidden relative bg_image_header w-full h-[39rem] sm:h-[49.313rem]">
            <div class="relative z-100 header flex justify-between px-[0.938rem] bg-[#FFFFFF] xl:bg-transparent xl:px-0 xl:justify-center py-[1.313rem] items-center xl:gap-[2.25rem] 3xl:gap-[4.875rem] ">
                 <div class="logo_header">
                     <img src="img/logo_header.png" alt="logo_img">
@@ -83,13 +83,13 @@
                 </div>
            </div>
         <div id="menu-overlay" class="menu-overlay hidden absolute"></div>
-        <div class="absolute bottom-0 3xl:right-[8.75rem] img_doctor_header sm:right-[3.75rem] right-[1rem]">
+        <div class="absolute xl:bottom-[-5rem] sm:bottom-[-3.125rem] bottom-[-1.5rem] 3xl:right-[8.75rem] img_doctor_header sm:right-[3.75rem] right-[1rem]">
             <img src="img/img_doctor1.png" alt="img_doctor">
         </div>
         <div class="absolute flex flex-col gap-[1rem] sm:gap-[1.5rem] 2xl:top-1/4 top-[20%] 3xl:left-[16rem] 2xl:left-[5rem] left-[1.5rem]">
             <h2 class="text-[#252525] font-[700] 2xl:text-[3.5rem] lg:text-[2.375rem] sm:text-[2rem] text-[1.25rem]">Dịch vụ Khám bệnh tại nhà </br>An tâm chẳng lo ngại đường xa</h2>
             <p class="max-w-[30rem] xl:max-w-[37rem] 2xl:max-w-[40.938rem] text-[#454545] sm:text-[1rem] text-[0.813rem] pr-[0.938rem] sm:pr-0 font-[400] mb-0 sm:mb-[1.5rem]">Bệnh viện Đa khoa Phương Đông triển khai dịch vụ khám bệnh tại nhà giúp các gia đình có con nhỏ, người cao tuổi, khó đi lại... được hưởng sự chăm sóc y tế cao cấp, an toàn, hiệu quả.</p>
-            <button class="flex items-center  w-[7.5rem] justify-evenly font-semibold bg-gradient-to-b from-[#FFB469] to-[#E57709] hover:from-[#FFD27A] hover:to-[#FF9B30] rounded-[1.438rem] uppercase text-[#FFFFFF] shadow-text-res
+            <button class="flex items-center  w-[7.5rem] justify-evenly bg-gradient-to-b from-[#FFB469] to-[#E57709] hover:from-[#FFD27A] hover:to-[#FF9B30] rounded-[1.438rem] uppercase text-[#FFFFFF] shadow-text-res
             sm:justify-center sm:w-[10rem] md:w-[14.375rem] 2xl:w-[13.438rem] h-[2.625rem] sm:h-[2.875rem]  sm:space-x-[0.5rem]">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="sm:w-[1.5rem] sm:h-[1.5rem] w-[1rem] h-[1rem]">
                 <path d="M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712ZM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32l8.4-8.4Z" />
@@ -111,17 +111,21 @@
     <section class="section_banner ">
         <div class="container mx-auto">
             <div class="relative  flex flex-col xl:flex-row gap-0 xl:gap-[12.5rem] xl:pt-[12.5rem] md:pt-[8.5rem] sm:pt-[7.5rem] mt-[4.5rem]">
-                <div class="relative w-[19rem] h-[16.188rem] sm:w-[22rem] md:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]  rounded-[1.25rem]">
-                    <div class=" bg_banner_skew w-[19rem] h-[16.188rem] sm:w-[22rem] md:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]   absolute">
-                        
+                <div class="relative">
+                    <div class="relative w-[19rem] h-[16.188rem] sm:w-[22rem] md:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]  rounded-[1.25rem]">
+                        <div class=" bg_banner_skew w-[19rem] h-[16.188rem] sm:w-[22rem] md:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]   absolute">
+                            
+                        </div>
+                       <div class="absolute h-[18.063rem] w-[15.688rem] sm:w-[28.688rem] sm:h-[32.063rem]  md:w-[35.688rem] md:h-[40.063rem] 2xl:w-[45.688rem] 2xl:h-[50.063rem] doctor_image_banner sm:left-[6.813rem] sm:bottom-[4.5rem] left-[1.7rem] bottom-[1.7rem] md:bottom-[0.6rem] xl:bottom-[2.4rem] 2xl:bottom-[4.063rem]">
+                            <img src="img/doctor_banner2.png">
+                       </div>
+                       
+                       <div class="md:flex hidden absolute top-[-3.938rem] right-[-3.188rem] border-[0.5rem] w-[2.5rem] h-[2.5rem] rounded-full border-[#FFC700]">
+                       
+                            
+                       </div>
                     </div>
-                   <div class="absolute h-[18.063rem] w-[15.688rem] sm:w-[28.688rem] sm:h-[32.063rem]  md:w-[35.688rem] md:h-[40.063rem] 2xl:w-[45.688rem] 2xl:h-[50.063rem] doctor_image_banner sm:left-[6.813rem] sm:bottom-[4.5rem] left-[1.7rem] bottom-[1.7rem] md:bottom-[0.6rem] xl:bottom-[2.4rem] 2xl:bottom-[4.063rem]">
-                        <img src="img/doctor_banner2.png">
-                   </div>
-                   <div class="md:flex hidden absolute top-[-3.938rem] right-[-3.188rem] border-[0.5rem] w-[2.5rem] h-[2.5rem] rounded-full border-[#FFC700]">
                    
-                        
-                   </div>
                 </div>
                 <div class=" pt-0 md:pt-[4.5rem] 2xl:pt-[6.25rem] text-justify px-[0.938rem] xl:px-0">
                     <div>
@@ -200,7 +204,7 @@
                     </h2>
                     <div class="flex flex-row flex-wrap lg:flex-nowrap xl:flex-col 2xl:flex-row gap-[1rem] sm:gap-[2rem] 2xl:gap-[1.5rem] 3xl:gap-[2.5rem] mt-[1.5rem] sm:mt-[3.5rem]">
                         <div class="flex flex-col gap-[1rem] sm:gap-[2rem] 2xl:gap-[3rem] 3xl:gap-[3.5rem]">
-                            <div class=" flex flex-row 2xl:flex-col gap-[1.25rem] 2xl:gap-0 items-center ">
+                            <div class=" flex flex-row 2xl:flex-col gap-[1.25rem] 2xl:gap-0 items-start ">
                                 <div class="flex justify-center px-[0.5rem] sm:px-[0.938rem] items-center w-[3.563rem] h-[3.563rem] sm:w-[4.563rem] sm:h-[4.563rem] bg-gradient-to-br from-[#16A085] to-[#F4D03F] rounded-[1.25rem] shadow_cus_shape_service">
                                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M24.0003 32.88L24.7203 30H23.2803L24.0003 32.88Z" fill="white"/>
@@ -227,7 +231,7 @@
                                 </div>
                             </div>
 
-                            <div class="flex flex-row 2xl:flex-col gap-[1.25rem] 2xl:gap-0 items-center">
+                            <div class="flex flex-row 2xl:flex-col gap-[1.25rem] 2xl:gap-0 items-start">
                                 <div class="flex justify-center px-[0.5rem] sm:px-[0.938rem] items-center w-[3.563rem] h-[3.563rem] sm:w-[4.563rem] sm:h-[4.563rem] bg-gradient-to-br from-[#16A085] to-[#F4D03F] rounded-[1.25rem] shadow_cus_shape_service">
                                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M39.5289 14.6687C39.849 14.4127 39.9032 13.9497 39.6471 13.6296C39.396 13.3095 38.9331 13.2553 38.613 13.5114C38.5293 13.5754 37.244 14.6095 36.2295 16.471L37.239 17.7662C38.1352 15.8064 39.4993 14.6885 39.5289 14.6687Z" fill="white"/>
@@ -244,7 +248,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col gap-[1rem] sm:gap-[2rem] 2xl:gap-[3rem] 3xl:gap-[3.5rem] mt-0 2xl:mt-[4rem]">
-                            <div class="flex flex-row 2xl:flex-col items-center gap-[1.25rem] 2xl:gap-0">
+                            <div class="items-start flex flex-row 2xl:flex-col  gap-[1.25rem] 2xl:gap-0">
                                 <div class="flex justify-center px-[0.5rem] sm:px-[0.938rem] items-center w-[3.563rem] h-[3.563rem] sm:w-[4.563rem] sm:h-[4.563rem] bg-gradient-to-br from-[#16A085] to-[#F4D03F] rounded-[1.25rem] shadow_cus_shape_service">
                                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_11950)">
@@ -265,7 +269,7 @@
                                 </div>
                             </div>
 
-                            <div class="flex flex-row 2xl:flex-col gap-[1.25rem] 2xl:gap-0 items-center">
+                            <div class="flex flex-row 2xl:flex-col gap-[1.25rem] 2xl:gap-0 items-start">
                                 <div class="flex justify-center px-[0.5rem] sm:px-[0.938rem] items-center w-[3.563rem] h-[3.563rem] sm:w-[4.563rem] sm:h-[4.563rem] bg-gradient-to-br from-[#16A085] to-[#F4D03F] rounded-[1.25rem] shadow_cus_shape_service">
                                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M29.625 25.3125C36.6039 25.3125 42.2812 19.6351 42.2812 12.6562C42.2812 5.67737 36.6039 0 29.625 0C22.6461 0 16.9688 5.67737 16.9688 12.6562C16.9688 19.6351 22.6461 25.3125 29.625 25.3125ZM28.2188 5.88391V4.27515C28.2188 3.49768 28.8479 2.8689 29.625 2.8689C30.4021 2.8689 31.0312 3.49768 31.0312 4.27515V5.89966C31.9592 6.23181 32.7719 6.85693 33.278 7.73291C33.668 8.40601 33.4373 9.2655 32.7656 9.65405C32.0874 10.0455 31.2305 9.81335 30.8445 9.14209C30.5933 8.70667 30.1263 8.4375 29.625 8.4375C28.849 8.4375 28.2188 9.06775 28.2188 9.84375C28.2188 10.6198 28.849 11.25 29.625 11.25C31.9512 11.25 33.8438 13.1426 33.8438 15.4688C33.8438 17.2998 32.6646 18.8459 31.0312 19.4286V20.9813C31.0312 21.7584 30.4021 22.3876 29.625 22.3876C28.8479 22.3876 28.2188 21.7584 28.2188 20.9813V19.4128C27.2908 19.0803 26.4781 18.4556 25.972 17.5796C25.582 16.9065 25.8127 16.047 26.4844 15.6584C27.1571 15.2629 28.0181 15.4977 28.4055 16.1704C28.6567 16.6058 29.1237 16.875 29.625 16.875C30.401 16.875 31.0312 16.2448 31.0312 15.4688C31.0312 14.6927 30.401 14.0625 29.625 14.0625C27.2988 14.0625 25.4062 12.1699 25.4062 9.84375C25.4062 8.0127 26.5854 6.46655 28.2188 5.88391Z" fill="white"/>
@@ -282,7 +286,7 @@
                     </div>
                 </div>
 
-                <div class="mt-0 xl:mt-[8rem] 2xl:mt-0 relative  h-[16.188rem]  w-full xl:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]  rounded-[1.25rem]">
+                <div class="mt-[7.188rem] xl:mt-[8rem] 2xl:mt-0 relative  h-[16.188rem]  w-full xl:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]  rounded-[1.25rem]">
                     <div class="bg_cus_service_skew perspective-2000 right-0 w-[19rem] h-[16.188rem] sm:w-[22rem]  md:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]   absolute">
                         
                     </div>
@@ -295,6 +299,219 @@
                 <div class="hidden 3xl:flex absolute left-0 top-1/2 w-[5.188rem] h-[9.063rem]">
                     <img src="img/icon_banner2.png" alt="icon_img">
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- section image customer -->
+    <section class="mt-[9rem] image-customer">
+        <div class="container mx-auto">
+            <div class="flex gap-[3.5rem] justify-end overflow-hidden">
+                <div class="relative">
+                    <div class="flex items-center text-center gap-[0.75rem]">
+                        <p class="w-[4.313rem] h-[0.063rem] bg-gradient-to-br from-[#3EED8B] to-[#0A9949]"></p>
+                        <p class="font-[700] uppercase text-[0.875rem] bg-gradient-to-br from-[#3EED8B] to-[#0A9949] bg-clip-text text-transparent tracking-[0.188rem]">Hình ảnh</p>
+                    </div>
+                    <h2 class="max-w-[37rem] mt-[0.5rem] lg:max-w-[43.75rem] xl:max-w-[31.75rem] text-[1.25rem] sm:text-[2rem] lg:text-[2.375rem] sm:leading-[2.875rem] font-[700] text-[#252525] leading-[1.75rem] mb-[1rem] sm:mb-[1.5rem]">Hình ảnh khách hàng sử dụng 
+                        dịch vụ Khám bệnh tại nhà</h2>
+                    
+                        <p class="max-w-none xl:max-w-[35.5rem] text-[#454545] font-[400] text-[0.813rem] sm:text-[1rem] mb-[1rem] sm:mb-[1.5rem] md:mb-[2.5rem] text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, nec morbi mauris, turpis fringilla condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus etiam nisl pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor, convallis dolor. Et, dignissim amet sed orci at amet id nulla mauris. Sagittis turpis eget mauris massa congue in rutrum vel. Augue est nunc a id quis mattis. Lorem ipsum dolor sit amet, consectetur.
+                        <div class="flex gap-[1.5rem]">
+                            <button class="flex items-center  w-[7.5rem] justify-evenly  bg-gradient-to-b from-[#FFB469] to-[#E57709] hover:from-[#FFD27A] hover:to-[#FF9B30] rounded-[1.438rem] uppercase text-[#FFFFFF] shadow-text-res
+                            sm:justify-center sm:w-[10rem] md:w-[14.375rem] 2xl:w-[13.438rem] h-[2.625rem] sm:h-[2.875rem]  sm:space-x-[0.5rem]">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="sm:w-[1.5rem] sm:h-[1.5rem] w-[1.25rem] h-[1.25rem]">
+                                <path d="M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712ZM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32l8.4-8.4Z" />
+                                <path d="M5.25 5.25a3 3 0 0 0-3 3v10.5a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3V13.5a.75.75 0 0 0-1.5 0v5.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5V8.25a1.5 1.5 0 0 1 1.5-1.5h5.25a.75.75 0 0 0 0-1.5H5.25Z" />
+                              </svg>
+                              
+                              
+                            <a href="#" class="font-[700] text-[0.563rem] sm:text-[0.75rem] md:text-[1rem]">Đăng ký tư vấn</a>
+                        </button>
+
+                       
+
+                        </div>
+
+                        <div class="absolute w-[5.5rem] h-[2.25rem] mt-[3.5rem]">
+                            <div class="swiper-button-next  cus_img_next rotate-180 w-[2.25rem] h-[2.25rem]">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="18" cy="18" r="17" transform="matrix(-1 0 0 1 36 0)" fill="white" stroke="url(#paint0_linear_1_12514)" stroke-width="2"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.2929 10.2929C17.6834 9.90237 18.3166 9.90237 18.7071 10.2929C19.0976 10.6834 19.0976 11.3166 18.7071 11.7071L13.4142 17H25C25.5523 17 26 17.4477 26 18C26 18.5523 25.5523 19 25 19H13.4142L18.7071 24.2929C19.0976 24.6834 19.0976 25.3166 18.7071 25.7071C18.3166 26.0976 17.6834 26.0976 17.2929 25.7071L10.2936 18.7078C10.2912 18.7054 10.2888 18.703 10.2864 18.7005C10.1099 18.5208 10.0008 18.2746 10 18.003C10 18.002 10 18.001 10 18C10 17.999 10 17.998 10 17.997C10.0004 17.8625 10.0273 17.7343 10.0759 17.6172C10.1236 17.502 10.1937 17.3938 10.2864 17.2995C10.2888 17.297 10.2911 17.2947 10.2935 17.2923M17.2929 10.2929L10.2935 17.2923L17.2929 10.2929Z" fill="url(#paint1_linear_1_12514)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_1_12514" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#3EED8B"/>
+                                    <stop offset="1" stop-color="#0A9949"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_1_12514" x1="26" y1="10" x2="10" y2="26" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#3EED8B"/>
+                                    <stop offset="1" stop-color="#0A9949"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                    
+                                    
+                
+                            </div>
+                            <div class="swiper-button-prev  cus_img_prev  w-[2.25rem] h-[2.25rem]">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="18" cy="18" r="17" transform="matrix(-1 0 0 1 36 0)" fill="white" stroke="url(#paint0_linear_1_12514)" stroke-width="2"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.2929 10.2929C17.6834 9.90237 18.3166 9.90237 18.7071 10.2929C19.0976 10.6834 19.0976 11.3166 18.7071 11.7071L13.4142 17H25C25.5523 17 26 17.4477 26 18C26 18.5523 25.5523 19 25 19H13.4142L18.7071 24.2929C19.0976 24.6834 19.0976 25.3166 18.7071 25.7071C18.3166 26.0976 17.6834 26.0976 17.2929 25.7071L10.2936 18.7078C10.2912 18.7054 10.2888 18.703 10.2864 18.7005C10.1099 18.5208 10.0008 18.2746 10 18.003C10 18.002 10 18.001 10 18C10 17.999 10 17.998 10 17.997C10.0004 17.8625 10.0273 17.7343 10.0759 17.6172C10.1236 17.502 10.1937 17.3938 10.2864 17.2995C10.2888 17.297 10.2911 17.2947 10.2935 17.2923M17.2929 10.2929L10.2935 17.2923L17.2929 10.2929Z" fill="url(#paint1_linear_1_12514)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_1_12514" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#3EED8B"/>
+                                    <stop offset="1" stop-color="#0A9949"/>
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_1_12514" x1="26" y1="10" x2="10" y2="26" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#3EED8B"/>
+                                    <stop offset="1" stop-color="#0A9949"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>    
+                            </div>
+                        </div>
+        
+                </div>
+
+                <div class="max-w-[72.063rem] mr-[-7.063rem]">
+                    <div class="swiper swiper_img_customer swiper_img_customer_container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide-img-customer ">
+                                <div class="grid grid-cols-3 grid-rows-3 slide-img-cus_grid">
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img1.png  " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img2.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img3.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img4.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img5.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img6.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img7.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img8.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img9.png " alt="img_cus">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper-slide-img-customer ">
+                                <div class="grid grid-cols-3 grid-rows-3 slide-img-cus_grid">
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img1.png  " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img2.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img3.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img4.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img5.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img6.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img7.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img8.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img9.png " alt="img_cus">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper-slide-img-customer ">
+                                <div class="grid grid-cols-3 grid-rows-3 slide-img-cus_grid">
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img1.png  " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img2.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img3.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img4.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img5.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img6.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img7.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img8.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img9.png " alt="img_cus">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper-slide-img-customer ">
+                                <div class="grid grid-cols-3 grid-rows-3 slide-img-cus_grid">
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img1.png  " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img2.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img3.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img4.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img5.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img6.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img7.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img8.png " alt="img_cus">
+                                    </div>
+                                    <div class="w-[24.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
+                                        <img src="img/cus_img9.png " alt="img_cus">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
             </div>
         </div>
     </section>

@@ -20,3 +20,26 @@ document.addEventListener('click', (e)=>{
         }
     }
 })
+
+/////
+var swiper_img_customer = new Swiper(".swiper_img_customer_container", {
+  
+    grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: ["-20%", 0, -1],
+        },
+        next: {
+          translate: ["100%", 0, 0],
+        },
+      },
+      navigation: {
+        nextEl: ".cus_img_next",
+        prevEl: ".cus_img_prev",
+      },
+    
+   
+  });
+  
