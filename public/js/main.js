@@ -71,7 +71,7 @@ toggleIcons.forEach((icon, index) => {
             content.classList.remove('hidden'); 
             content.classList.add('flex'); 
             svgPath.setAttribute('d', 'M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z');
-
+            
            
         } else {
             content.classList.add('hidden'); 

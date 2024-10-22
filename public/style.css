@@ -508,6 +508,7 @@
     height: 22.813rem;
     bottom: 9%;
     left: 6.813rem;
+    clip-path: polygon(0 85%, 0 0%, 100% 0, 100% 95%);
 }
 }
 
@@ -515,29 +516,44 @@
   .trapezium_shape_img {
       width: 14.438rem;
       height: 19.813rem;
-      bottom: 7%;
+      bottom: 7.9%;
       left: 5.813rem;
+      clip-path: polygon(0 86%, 0 0%, 100% 0, 100% 95%);
+
   }
 }
 
-
-
-.bg_cus_ques img{
-  height: fit-content;
-}
-
-
-@media (max-width: 1279px) {
+@media (max-width: 767px) {
   .trapezium_shape_img {
-    clip-path: polygon(0 85%, 0 0%, 100% 0, 100% 95%);
+      width: 12.438rem;
+      height: 16.813rem;
+      bottom: 8%;
+      left: 4.813rem;
+      clip-path: polygon(0 87%, 0 0%, 100% 0, 100% 95%);
   }
- 
 }
-@media(min-width:1280px){
+@media (max-width: 639px) {
+  .trapezium_shape_img {
+      width: 8.438rem;
+      height: 11.813rem;
+      bottom: 4.8%;
+      left: 3.813rem;
+      clip-path: polygon(0 84%, 0 0%, 100% 0, 100% 94%);
+  }
+}
+.bg_cus_ques img{
+  height: 68.063rem;
+}
+@media (max-width: 1279px) {
   .bg_cus_ques img{
-    height: 68.063rem;
+    height: fit-content;
   }
-  
-  
 }
- 
+
+@media (max-width: 639px) {
+  .bg_cus_ques img{
+    height: 15.625rem;
+  }
+}
+
+
