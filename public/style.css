@@ -473,11 +473,6 @@
 
 }
 
-.bg_cus_ques img{
-  height: 68.063rem;
-}
-
-
 .trapezium_shape_img{
   clip-path: polygon(0 85%, 0 0%, 100% 0, 100% 94%);
   left: 14.813rem;
@@ -527,13 +522,22 @@
 
 
 
-@media (max-width: 1023px) {
+.bg_cus_ques img{
+  height: fit-content;
+}
+
+
+@media (max-width: 1279px) {
   .trapezium_shape_img {
     clip-path: polygon(0 85%, 0 0%, 100% 0, 100% 95%);
   }
+ 
+}
+@media(min-width:1280px){
   .bg_cus_ques img{
-    height: fit-content;
+    height: 68.063rem;
   }
+  
   
 }
  
