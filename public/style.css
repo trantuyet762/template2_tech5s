@@ -310,7 +310,7 @@
  ////
 
  .bg_cus_service_skew.right-0{
-  perspective: 2000px!important;
+  perspective: 125rem!important;
 
  }
  .bg_cus_service_skew:before{
@@ -557,3 +557,90 @@
 }
 
 
+.bg_shape_procedure{ 
+ perspective: 125rem!important;
+
+}
+
+ .bg_shape_procedure:before{
+  border-radius: 7.5rem;
+  margin: 0 auto;
+  position: absolute;
+  content: '';
+  width: 76%;
+  height: 120%;
+  transform: rotateX(-150deg);
+  z-index: 10;
+  background-image: linear-gradient(to left, #F4D03F, #16A085);
+ }
+ .bg_shape_procedure:after{
+  z-index: 10;
+  top: 4.063rem;
+  border-radius: 7.5rem;
+  margin: 0 auto;
+  position: absolute;
+  content: '';
+  width: 66%;
+  height: 106%;
+  transform: rotateX(-150deg);
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(22, 160, 133, 0.15) 0%, rgba(244, 208, 63, 0.15) 100%);
+
+ }
+
+ ////shape items procedure
+
+
+@media(min-width:360px){
+  .shape_items_procedure{
+    
+    
+   
+    clip-path: path("M113.5 6.00624C97.7389 6.00624 82.3894 4.26655 67.6253 0.976929C58.8428 -0.984191 49.9812 3.96606 46.9113 12.4273L1.14744 138.587C-2.42885 148.425 3.12546 159.29 13.2214 162.058C45.1706 170.772 78.7815 175.438 113.484 175.438C148.187 175.438 181.813 170.772 213.747 162.058C223.859 159.306 229.397 148.44 225.837 138.587L180.073 12.4273C177.003 3.96606 168.141 -0.984191 159.359 0.976929C144.595 4.26655 129.261 6.00624 113.5 6.00624Z")!important;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.2); 
+    
+}
+
+
+}
+ 
+.shape_items_procedure{
+    
+    
+ 
+  clip-path: path("M113.5 6.00624C97.7389 6.00624 82.3894 4.26655 67.6253 0.976929C58.8428 -0.984191 49.9812 3.96606 46.9113 12.4273L1.14744 138.587C-2.42885 148.425 3.12546 159.29 13.2214 162.058C45.1706 170.772 78.7815 175.438 113.484 175.438C148.187 175.438 181.813 170.772 213.747 162.058C223.859 159.306 229.397 148.44 225.837 138.587L180.073 12.4273C177.003 3.96606 168.141 -0.984191 159.359 0.976929C144.595 4.26655 129.261 6.00624 113.5 6.00624Z")!important;
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.2); 
+}
+
+
+ .shape_container_procedure{
+  rotate: 18deg;
+  transition: 0.5s;
+  transform: rotate(calc(-360deg/10 * var(--i)));
+  transform-origin: 27.125rem;
+ }
+
+ @media(max-width: 1919px){
+  .bg_shape_procedure:before{
+    height: 106%;
+    
+   }
+   .bg_shape_procedure:after{
+    
+    height: 100%;
+   
+   }
+
+ }
+ @media(max-width: 1535px){
+  .bg_shape_procedure:before{
+   width:95%;
+    
+   }
+   .bg_shape_procedure:after{
+    
+    width:85%;
+   
+   }
+
+ }
