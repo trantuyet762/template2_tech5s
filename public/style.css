@@ -591,7 +591,7 @@
  ////shape items procedure
 
 
-@media(min-width:360px){
+/* @media(min-width:360px){
   .shape_items_procedure{
     
     
@@ -602,15 +602,25 @@
 }
 
 
-}
+} */
+ @media(min-width: 640px){
+  .shape_items_procedure{
+    
+    
  
-.shape_items_procedure{
+    clip-path: path("M113.5 6.00624C97.7389 6.00624 82.3894 4.26655 67.6253 0.976929C58.8428 -0.984191 49.9812 3.96606 46.9113 12.4273L1.14744 138.587C-2.42885 148.425 3.12546 159.29 13.2214 162.058C45.1706 170.772 78.7815 175.438 113.484 175.438C148.187 175.438 181.813 170.772 213.747 162.058C223.859 159.306 229.397 148.44 225.837 138.587L180.073 12.4273C177.003 3.96606 168.141 -0.984191 159.359 0.976929C144.595 4.26655 129.261 6.00624 113.5 6.00624Z")!important;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.2); 
+  }
+
+ }
+ .shape_items_procedure{
     
     
  
   clip-path: path("M113.5 6.00624C97.7389 6.00624 82.3894 4.26655 67.6253 0.976929C58.8428 -0.984191 49.9812 3.96606 46.9113 12.4273L1.14744 138.587C-2.42885 148.425 3.12546 159.29 13.2214 162.058C45.1706 170.772 78.7815 175.438 113.484 175.438C148.187 175.438 181.813 170.772 213.747 162.058C223.859 159.306 229.397 148.44 225.837 138.587L180.073 12.4273C177.003 3.96606 168.141 -0.984191 159.359 0.976929C144.595 4.26655 129.261 6.00624 113.5 6.00624Z")!important;
   box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.2); 
 }
+
 
 
  .shape_container_procedure{
@@ -622,12 +632,12 @@
 
  @media(max-width: 1919px){
   .bg_shape_procedure:before{
-    height: 106%;
+    height: 111%;
     
    }
    .bg_shape_procedure:after{
     
-    height: 100%;
+    height: 102%;
    
    }
 
@@ -644,3 +654,84 @@
    }
 
  }
+
+ @media(max-width:1023px){
+  .bg_shape_procedure:before{
+    transform:rotateX(-160deg);
+     
+    }
+    .bg_shape_procedure:after{
+     
+     transform: rotateX(-160deg);
+    
+    }
+
+    .shape_container_procedure {
+      rotate: 90deg;
+      transition: 0.5s;
+      transform: rotate(calc(-360deg / 5* var(--i)));
+      transform-origin: 18.125rem;
+  }
+ }
+ @media (max-width: 767px) {
+  .shape_container_procedure {
+      rotate: 180deg; 
+      transition: none; 
+      transform: none; 
+      transform-origin: initial; 
+  }
+  .bg_shape_procedure:before{
+    transform:rotateX(-172deg);
+     
+    }
+    .bg_shape_procedure:after{
+     
+     transform: rotateX(-172deg);
+
+    
+    }
+    .text_step_one{
+      transform: rotateX(180deg);
+    }
+    .text_step_one_title{
+      transform: rotateX(180deg);
+      rotate: 180deg;
+
+    }
+    .text_step_two{
+      transform: rotateY(180deg);
+      rotate:180deg;
+    }
+    .text_step_two_title{
+      transform: rotateY(180deg);
+
+      
+    }
+    .text_step_four{
+      rotate: 180deg;
+    }
+}
+/* @media(max-width:639px){
+  .shape_items_procedure{
+    width:11.938rem;
+    height:11.063rem;
+    clip-path: path("M152.959 0.0158691H18.7534C8.24609 0.0158691 -0.0458469 8.98325 0.792841 19.4531C5.0654 72.6406 20.2884 122.744 44.2305 167.502C49.1835 176.754 60.9885 179.775 69.8184 174.113L182.756 101.599C190.431 96.6801 193.121 86.8429 189.229 78.603C180.003 59.1341 173.689 38.0205 170.825 15.8314C169.654 6.80071 162.042 0.0158691 152.959 0.0158691Z");
+  }
+} */
+@media (max-width: 639px) {
+  .shape_container_procedure {
+      rotate: 180deg; 
+       transform:scale(0.77);
+       left: -10%;
+  }
+  .bg_shape_procedure:after {
+   
+    top: 3.3rem;
+    border-radius: 4.5rem;
+  }
+  .bg_shape_procedure:before {
+   
+    border-radius: 4.5rem;
+  }
+  
+}
