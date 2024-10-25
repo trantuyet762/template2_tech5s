@@ -735,3 +735,60 @@
   }
   
 }
+.bg_price_service img{
+ height:68.063rem;
+
+}
+
+
+/////css swiper table price
+
+.swiper-slide.swiper-slide-table_price{
+  box-shadow: 0px 16px 48px 0px #00000014!important;
+
+}
+.swiper.swiper_table_service.swiper_table_service_container{
+  width:43rem!important;
+  height:61.938rem!important;
+  border-radius:1.25rem;
+
+}
+.swiper-slide.swiper-slide-table_price img{
+ 
+  border-radius:1.25rem!important;
+  box-shadow: 0px 16px 48px 0px #00000014!important;
+
+}
+@media(max-width:1919px){
+  .swiper.swiper_table_service.swiper_table_service_container{
+    width:40rem!important;
+    height:58.938rem!important;
+    border-radius:1.25rem;
+
+  
+  }
+  .bg_price_service img{
+    height:54.45rem;
+   
+   }
+}
+@media(max-width:1535px){
+  .swiper.swiper_table_service.swiper_table_service_container{
+    width:43rem!important;
+    height:61.938rem!important;
+    border-radius:1.25rem;
+  
+  }
+  .bg_price_service img{
+    height:45.375rem;
+   
+   }
+}
+@media(max-width:1279px){
+ 
+  .bg_price_service img{
+    height:50rem;
+   
+   }
+}
+
