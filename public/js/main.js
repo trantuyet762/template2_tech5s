@@ -87,8 +87,8 @@ var swiper_table_service = new Swiper(".swiper_table_service_container", {
     spaceBetween: 30,
     effect: "fade",
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".cus_table_price_next",
+      prevEl: ".cus_table_price_prev",
     },
     pagination: {
       el: ".swiper-pagination",
@@ -106,8 +106,8 @@ var swiper_table_service = new Swiper(".swiper_table_service_container", {
       clickable: true,
     },
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-offers-cus-next",
+        prevEl: ".swiper-offers-cus-prev",
       },
       breakpoints: {
     

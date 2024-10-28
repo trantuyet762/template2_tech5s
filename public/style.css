@@ -863,12 +863,71 @@
     height:18.938rem;
   }
 }
-.bg_register{
+.swiper-slide.swiper-slide_offers_cus.swiper-slide-active{
+  background: linear-gradient(90deg, #16A085 0%, #F4D03F 100%)!important;
+  box-shadow: 0px 7.71px 38.55px 0px #0A99494D!important;
+  .text-offers_cus{
+    color:#FFFFFF;
+  }
+  svg{
+    path{
+      stroke:#FFFFFF;
+    }
+  }
+  .button_cus_offers{
+    background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
+
+
+    button{
+     
+      background: linear-gradient(90deg, #16A085 0%, #F4D03F 100%);
+      -webkit-background-clip: text!important;
+      -webkit-text-fill-color: transparent!important; 
+     
+    }
+  }
+}
+.swiper-button-next.swiper-offers-cus-next {
+  width: 2.25rem;
+  height:2.25rem;
+  right: var(--swiper-navigation-sides-offset, 0px)!important;
+}
+.swiper-button-prev.swiper-offers-cus-prev{
+  width: 2.25rem;
+  height:2.25rem;
+  left: var(--swiper-navigation-sides-offset, 0px)!important;
+}
+.swiper-button-prev.swiper-offers-cus-prev svg:hover{
+  transition: fill 0.3s ease, border 0.3s ease, color 0.3s ease;
+  circle{
+    fill:#1eb05e;
+    stroke:#1eb05e;
+  }
+  path{
+    fill:#FFFFFF;
+
+  }
+}
+.swiper-button-next.swiper-offers-cus-next svg:hover{
+  transition: fill 0.3s ease, border 0.3s ease, color 0.3s ease;
+  circle{
+    fill:#1eb05e;
+    stroke:#1eb05e;
+  }
+  path{
+    fill:#FFFFFF;
+  }
+}
+///section register
+@media(min-width:0px){
+  .bg_register_table.bg_register{
   
-  background-image: url('img/bg_register.png');
-  background-size: cover;
- 
-  background-repeat: no-repeat;
+    background-image: url('img/bg_register.png')!important;
+    background-size: cover!important;
+   
+    background-repeat: no-repeat!important;
+    background-position: center;
+  }
 }
 .bg-gradient_register{
   background: linear-gradient(90deg, rgba(22, 160, 133, 0.5) 0%, rgba(244, 208, 63, 0.5) 100%);
@@ -1000,3 +1059,4 @@
   }
   
 }
+///
