@@ -234,8 +234,10 @@
 
  }
  .doctor_image_banner{
+  
+  clip-path: polygon(0 100%, 0 0%, 100% 0, 100% 87%);
   img{
-  transform: rotate(0deg) skewY(-8deg) scaleX(-1);
+  transform: rotate(0deg) skewY(0deg) scaleX(-1);
  }
  }
  .shadow_phone_banner{
@@ -256,6 +258,11 @@
    }
  }
  @media(max-width:1535px){
+  .doctor_image_banner{
+    clip-path: polygon(0 99%, 0 0%, 100% 0, 100% 87%);
+  
+    
+   }
   .bg_banner_skew:before{
    
     width: 140%;
@@ -272,11 +279,9 @@
     transform: rotateY(27deg);
     
    }
-   .doctor_image_banner{
-    img{
-    transform: rotate(0deg) skewY(-4deg) scaleX(-1);
-   }
-   }
+   .doctor_image_banner {
+    clip-path: polygon(0 98%, 0 0%, 100% 0, 100% 92%);
+}
  }
  @media(max-width:767px){
   .bg_banner_skew:before{
@@ -287,9 +292,7 @@
    }
    
    .doctor_image_banner{
-    img{
-    transform: rotate(0deg) skewY(-2deg) scaleX(-1);
-   }
+    clip-path: polygon(0 97%, 0 0%, 100% 0, 100% 94%);
    }
  }
 
@@ -302,9 +305,8 @@
    }
    
    .doctor_image_banner{
-    img{
-    transform: rotate(0deg) skewY(-1deg) scaleX(-1);
-   }
+    clip-path: polygon(0 93%, 0 0%, 100% 0, 100% 91%);
+
    }
  }
  ////
@@ -333,8 +335,9 @@
     perspective: 2000px;
  }
 }
-.doctor_cus_service_img img{
-  transform: skewY(8deg);
+.doctor_cus_service_img {
+  clip-path: polygon(0 89%, 0 0%, 100% 0, 100% 100%);
+  
 }
 .shadow_cus_shape_service{
   box-shadow: 0px 8px 16px 0px #0A99494D;
@@ -345,15 +348,21 @@
     width:147%;
  }
 }
+@media(max-width:1919px){
+  .doctor_cus_service_img  {
+    clip-path: polygon(0 87%, 0 0%, 100% 0, 100% 98%);
+  }
+}
 @media(max-width:1279px){
   .bg_cus_service_skew:before {
     width:136%;
   transform: rotateY(-27deg);
-
  }
- .doctor_cus_service_img img {
-  transform: skewY(3deg);
+ .doctor_cus_service_img {
+  clip-path: polygon(0 92%, 0 0%, 100% 0, 100% 97%);
+  
 }
+
 }
 
 @media(max-width:767px){
@@ -361,6 +370,9 @@
     width:229%;
     height:85%;
  }
+ .doctor_cus_service_img  {
+  clip-path: polygon(0 92%, 0 0%, 100% 0, 100% 95%);
+}
  
 }
 @media(max-width:640px){
@@ -368,8 +380,8 @@
     width:140%;
     height:85%;
  }
- .doctor_cus_service_img img {
-  transform: skewY(1deg);
+ .doctor_cus_service_img  {
+  clip-path: polygon(0 92%, 0 0%, 100% 0, 100% 95%);
 }
  
 }
