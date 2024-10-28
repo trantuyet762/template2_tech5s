@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
         dancing: ['"Dancing Script"', 'cursive'],
+        allura: ['Allura', 'cursive'],
       },
       screens: {
         '3xl': '1920px',

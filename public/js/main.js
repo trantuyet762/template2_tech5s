@@ -95,3 +95,34 @@ var swiper_table_service = new Swiper(".swiper_table_service_container", {
       clickable: true,
     },
   });
+
+  /////
+
+  var swiper_offers_cus = new Swiper(".swiper_offers_cus_container", {
+    slidesPerView: 3,
+    spaceBetween: 24,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+    
+        350: {
+            slidesPerView: 1, 
+            slidesPerGroup: 1, 
+        },
+        
+        1024: {
+            slidesPerView: 2, 
+            slidesPerGroup: 1, 
+        },
+       1920:{
+        slidesPerView: 3, 
+        slidesPerGroup: 1, 
+       }
+    },
+  });
