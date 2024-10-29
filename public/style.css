@@ -1110,3 +1110,24 @@
   
 }
 ///
+.swiper-button-prev.cus_table_price_prev svg:hover{
+  transition: fill 0.3s ease, border 0.3s ease, color 0.3s ease;
+  circle{
+    fill:#1eb05e;
+    stroke:#1eb05e;
+  }
+  path{
+    fill:#FFFFFF;
+
+  }
+}
+.swiper-button-next.cus_table_price_next svg:hover{
+  transition: fill 0.3s ease, border 0.3s ease, color 0.3s ease;
+  circle{
+    fill:#1eb05e;
+    stroke:#1eb05e;
+  }
+  path{
+    fill:#FFFFFF;
+  }
+}
