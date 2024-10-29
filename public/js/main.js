@@ -35,9 +35,14 @@ var swiper_img_customer = new Swiper(".swiper_img_customer_container", {
     //       translate: ["100%", 0, 0],
     //     },
     //   },
-    slidesPerView: 1,
-     
+    slidesPerView: 3,
+  loop:true,
+      grid: {
+        rows: 3,
+        
+      },
       freeMode: true,
+      grabCursor: true,
       navigation: {
         nextEl: ".cus_img_next",
         prevEl: ".cus_img_prev",
@@ -46,6 +51,26 @@ var swiper_img_customer = new Swiper(".swiper_img_customer_container", {
         el: ".swiper-pagination",
         clickable: true,
       },
+      breakpoints: {
+    
+        350: {
+            slidesPerView: 1, 
+        },
+        
+        640: {
+            slidesPerView: 2, 
+        },
+       1024:{
+        slidesPerView: 3, 
+       },
+       1280:{
+        slidesPerView: 4, 
+       },
+       
+       1536:{
+        slidesPerView: 3, 
+       }
+    },
     
    
   });
