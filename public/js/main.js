@@ -7,14 +7,14 @@ const phoneNumber = document.getElementById('phone-number');
 document.addEventListener('click', (e)=>{
     if(toggleTopMenu.contains(e.target)){
         topMenu.classList.toggle('top-menu-expanded')
-        topMenu.classList.toggle('hidden')
+        
         overlay.classList.toggle('hidden')
         document.body.classList.toggle('menu-expanded')
     }
     else{
         if(topMenu.classList.contains('top-menu-expanded')){
             topMenu.classList.remove('top-menu-expanded')
-            topMenu.classList.add('hidden')
+           
             overlay.classList.add('hidden')
             document.body.classList.remove('menu-expanded')
         }
@@ -76,31 +76,56 @@ var swiper_img_customer = new Swiper(".swiper_img_customer_container", {
   });
 
  /// toggle
+
+
+ //
+// const toggleIcons = document.querySelectorAll('.toggle-icon');
+// const toggleContents = document.querySelectorAll('.toggle-content');
+
+// toggleIcons.forEach((icon, index) => {
+//   icon.addEventListener('click', () => {
+//       const content = toggleContents[index];
+//       const svgPath = icon.querySelector('path');
+      
+//       if (content.style.height === '0') {
+//         content.style.height = 'fit-content';  
+//         content.style.opacity = 1;
+//         svgPath.setAttribute('d', 'M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z');  
+//         // content.style.maxHeight= '0';
+
+        
+
+//           // content.style.display = 'block';  
+         
+          
+//       } else {
+//         content.style.height= '0';
+//         content.style.opacity= '0';
+//         svgPath.setAttribute('d', 'M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-11.25a.75.75 0 0 0-1.5 0v2.5h-2.5a.75.75 0 0 0 0 1.5h2.5v2.5a.75.75 0 0 0 1.5 0v-2.5h2.5a.75.75 0 0 0 0-1.5h-2.5v-2.5Z'); 
+
+       
+//       }
+//   });
+// });
+
+
 const toggleIcons = document.querySelectorAll('.toggle-icon');
 const toggleContents = document.querySelectorAll('.toggle-content');
 
 toggleIcons.forEach((icon, index) => {
     icon.addEventListener('click', () => {
-     
-        toggleContents.forEach((content, i) => {
-            if (i !== index) {
-                content.classList.add('hidden'); 
-                content.classList.remove('flex'); 
-            }
-        });
-
-        const content = toggleContents[index];
+        const content = toggleContents[index]; // Lấy nội dung tương ứng với biểu tượng
         const svgPath = icon.querySelector('path');
 
         if (content.classList.contains('hidden')) {
-            content.classList.remove('hidden'); 
-            content.classList.add('flex'); 
+            content.style.height = 'fit-content'; 
+            content.classList.remove('hidden');
+            content.classList.add('visible'); // Thêm lớp visible khi hiển thị
             svgPath.setAttribute('d', 'M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6.75 9.25a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z');
-            
-           
         } else {
-            content.classList.add('hidden'); 
-            content.classList.remove('flex'); 
+            content.style.height = '0'; 
+            content.classList.remove('visible'); // Xóa lớp visible khi ẩn
+            content.classList.add('hidden'); // Thêm lớp hidden khi ẩn
             svgPath.setAttribute('d', 'M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-11.25a.75.75 0 0 0-1.5 0v2.5h-2.5a.75.75 0 0 0 0 1.5h2.5v2.5a.75.75 0 0 0 1.5 0v-2.5h2.5a.75.75 0 0 0 0-1.5h-2.5v-2.5Z');
         }
     });

@@ -26,32 +26,32 @@
   <header>
     <div class="container mx-auto">
         <div class="overflow-hidden relative bg_image_header w-full h-[39rem] sm:h-[49.313rem]">
-           <div class="relative z-100 header flex justify-between px-[0.938rem] bg-[#FFFFFF] xl:bg-transparent xl:px-0 xl:justify-center py-[1.313rem] items-center xl:gap-[2.25rem] 3xl:gap-[4.875rem] ">
+           <div class="relative  z-100 header flex justify-between px-[0.938rem] bg-[#FFFFFF] xl:bg-transparent xl:px-0 xl:justify-center py-[0.938rem] md:py-[1.313rem] items-center xl:gap-[2.25rem] 3xl:gap-[4.875rem] ">
                 <div class="logo_header">
-                    <img src="img/logo_header.png" alt="logo_img">
+                    <img src="img/logo_header.png" width="175" height="39" alt="logo_img">
                 </div>
-                <div id="top-menu" class="hidden header_menu xl:text-[0.813rem] 2xl:text-[1rem] xl:flex xl:gap-[1.25rem] 2xl:gap-[2rem] xl:items-center xs:items-start">
+                <div id="top-menu" class=" xl:right-0 header_menu xl:text-[0.813rem] 2xl:text-[1rem] xl:flex xl:gap-[1.25rem] 2xl:gap-[2rem] xl:items-center xs:items-start">
                     <ul>
                         <li>
-                            <a href="#">Giới thiệu</a>
+                            <a href="#" title="giới-thiệu">Giới thiệu</a>
                         </li>
                         <li>
-                            <a href="#">Đối tượng khách hàng</a>
+                            <a href="#"  title="đối-tượng-khách-hàng">Đối tượng khách hàng</a>
                         </li>
                         <li>
-                            <a href="#">Quy trình</a>
+                            <a href="#" title="quy-trình">Quy trình</a>
                         </li>
                         <li>
-                            <a href="#">Bảng giá</a>
+                            <a href="#" title="bảng-giá">Bảng giá</a>
                         </li>
                         <li>
-                            <a href="#">Cảm nhận của khách hàng</a>
+                            <a href="#" title="cảm-nhận-khách-hàng">Cảm nhận của khách hàng</a>
                         </li>
                         <li>
-                            <a href="#">Đội ngũ bác sĩ</a>
+                            <a href="#" title="đội-ngũ-bác-sĩ">Đội ngũ bác sĩ</a>
                         </li>
                         <li>
-                            <a href="#">Hình ảnh & video</a>
+                            <a href="#" title="hình-ảnh-và-video">Hình ảnh & video</a>
                         </li>
                     </ul>
                     <div class="flex phone_menu_header">
@@ -68,14 +68,22 @@
                             
                             
                                 <p class="xs:text-[0.813rem] 2xl:text-[1rem] text-white font-[700]  font-lato"> 
-                                    <a href="tel: 1900 1806" class=" flex text-[1rem] pb-[1rem]!important"> Gọi 1900 1806</a>
+                                    <a href="tel: 1900 1806" class="  text-[1rem] pb-[1rem]!important inline-block" title="liên-hệ"> Gọi 1900 1806</a>
                                 </p>
                             
                         </div>
                     </div>
                 </div>
                 
+                <!-- <div class="xl:hidden">
+                    <input type="checkbox" id="checkmenu" class="hidden">
+                    <label for="checkmenu" class="checkmenuBtn">
+                        <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                          </svg>
+                    </label>
 
+                </div> -->
                 <div class="xl:hidden">
                     <a href="#">
                         <svg id="toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -86,8 +94,8 @@
                 </div>
            </div>
         <div id="menu-overlay" class="menu-overlay hidden absolute"></div>
-        <div class="absolute xl:bottom-[-5rem] sm:bottom-[-3.125rem] bottom-[-1.5rem] 3xl:right-[8.75rem] img_doctor_header sm:right-[3.75rem] right-[1rem]">
-            <img src="img/img_doctor1.png" alt="img_doctor">
+        <div class="absolute xl:bottom-[-5rem] lg:bottom-[-15rem] sm:bottom-[-17rem] 3xl:right-[8.75rem] img_doctor_header bottom-[-13.5rem] xl:right-0 lg:right-[-11.25rem] right-[-13rem]  sm:right-[-15.25rem] w-[30rem] h-[30rem]   sm:w-[43rem] sm:h-[43.188rem]">
+            <img src="img/img_doctor1.png" width="688" height="691" alt="img_doctor">
         </div>
         <div class="absolute flex flex-col gap-[1rem] sm:gap-[1.5rem] 2xl:top-1/4 top-[20%] 3xl:left-[16rem] 2xl:left-[5rem] left-[1.5rem]">
             <h2 class="text-[#252525] font-[700] 2xl:text-[3.5rem] lg:text-[2.375rem] sm:text-[2rem] text-[1.25rem]">Dịch vụ Khám bệnh tại nhà </br>An tâm chẳng lo ngại đường xa</h2>
@@ -104,8 +112,8 @@
         </button>
         </div>
 
-        <div class="absolute hidden xl:flex top-0 right-0">
-            <img src="img/icon_bg1.png" alt="icon_img">
+        <div class="absolute hidden xl:flex top-0 right-0 -z-10">
+            <img src="img/icon_bg1.png" width="886" height="1725" alt="icon_img">
 
         </div>
         </div>
@@ -118,14 +126,14 @@
 
     <section class="section_banner ">
         <div class="container mx-auto">
-            <div class="relative  flex flex-col xl:flex-row gap-0 xl:gap-[5.5rem] 2xl:xl:gap-[12.5rem] xl:pt-[12.5rem] md:pt-[8.5rem] sm:pt-[7.5rem] mt-[4.5rem] ">
+            <div class="relative  flex flex-col xl:flex-row gap-0 xl:gap-[0rem] 2xl:gap-[12.5rem] xl:pt-[12.5rem] md:pt-[8.5rem] sm:pt-[7.5rem] mt-[4.5rem] ">
                 <div class="relative">
                     <div class="relative w-[19rem] h-[16.188rem] sm:w-[22rem] md:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]  rounded-[1.25rem]">
                         <div class=" bg_banner_skew w-[19rem] h-[16.188rem] sm:w-[22rem] md:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]   absolute">
                             
                         </div>
                        <div class="absolute h-[18.063rem] w-[15.688rem] sm:w-[28.688rem] sm:h-[32.063rem]  md:w-[35.688rem] md:h-[40.063rem] 2xl:w-[45.688rem] 2xl:h-[50.063rem] doctor_image_banner sm:left-[6.713rem] sm:bottom-[3.7rem] left-[1.7rem] bottom-[1.2rem] md:bottom-[-0.4rem] xl:bottom-[0.57rem] 2xl:bottom-[0.863rem]">
-                            <img src="img/doctor_banner2.png">
+                            <img src="img/doctor_banner2.png " width="731" height="801" alt="img_doctor">
                        </div>
                        
                        <div class="md:flex hidden absolute top-[-3.938rem] right-[-3rem] border-[0.5rem] w-[2.5rem] h-[2.5rem] rounded-full border-[#FFC700]">
@@ -167,17 +175,17 @@
                                     <path d="M17.0099 13.6611C16.971 13.661 16.9322 13.658 16.8939 13.6521C16.6973 13.6213 16.5209 13.5138 16.4036 13.3531C16.2862 13.1924 16.2374 12.9917 16.2679 12.7951C16.3143 12.5057 16.3381 12.2132 16.3389 11.9201C16.3382 10.8834 16.0312 9.86996 15.4563 9.00722C14.8814 8.14447 14.0644 7.47089 13.1079 7.0711C13.0162 7.03343 12.933 6.97798 12.8629 6.90795C12.7928 6.83792 12.7373 6.75471 12.6996 6.66311C12.6619 6.57151 12.6427 6.47334 12.6431 6.37427C12.6435 6.27521 12.6635 6.17721 12.702 6.08593C12.7405 5.99465 12.7968 5.91191 12.8674 5.84247C12.9381 5.77304 13.0218 5.7183 13.1137 5.6814C13.2057 5.6445 13.304 5.62619 13.4031 5.62751C13.5021 5.62883 13.5999 5.64976 13.6909 5.6891C14.9196 6.203 15.969 7.06872 16.707 8.1774C17.4451 9.28608 17.8389 10.5882 17.8389 11.9201C17.8381 12.2905 17.8083 12.6603 17.7499 13.0261C17.7226 13.2029 17.6331 13.364 17.4974 13.4805C17.3616 13.597 17.1887 13.661 17.0099 13.6611Z" fill="white"/>
                                     <path d="M20.9501 14.3111C20.9078 14.3109 20.8657 14.3072 20.8241 14.3001C20.7269 14.2836 20.634 14.2482 20.5506 14.1958C20.4672 14.1434 20.3949 14.0751 20.3379 13.9948C20.2809 13.9145 20.2402 13.8237 20.2183 13.7277C20.1964 13.6316 20.1936 13.5322 20.2101 13.4351C20.2953 12.9346 20.3385 12.4278 20.3391 11.9201C20.3424 10.0924 19.8023 8.30487 18.7873 6.78479C17.7724 5.26471 16.3285 4.08067 14.6391 3.38312C14.5446 3.34777 14.4582 3.29372 14.3851 3.22421C14.312 3.1547 14.2536 3.07115 14.2136 2.97857C14.1735 2.88599 14.1525 2.78627 14.1519 2.68539C14.1512 2.58451 14.171 2.48454 14.2099 2.39146C14.2488 2.29838 14.306 2.2141 14.3783 2.14367C14.4505 2.07325 14.5362 2.01811 14.6302 1.98158C14.7243 1.94504 14.8247 1.92785 14.9255 1.93104C15.0264 1.93422 15.1255 1.95772 15.2171 2.00012C17.18 2.81132 18.8576 4.18765 20.0366 5.95429C21.2157 7.72093 21.8431 9.79816 21.8391 11.9221C21.8386 12.514 21.7881 13.1048 21.6881 13.6881C21.6581 13.8623 21.5677 14.0202 21.4327 14.1342C21.2977 14.2482 21.1268 14.3108 20.9501 14.3111Z" fill="white"/>
                                     </svg>
-                                <a href="#" class="font-[700] text-[0.563rem] sm:text-[0.75rem] md:text-[1rem]">Gọi cho chúng tôi</a>                                
+                                <a href="tel: 1900 1806"  class="font-[700] text-[0.563rem] sm:text-[0.75rem] md:text-[1rem]">Gọi cho chúng tôi</a>                                
                             </button>
     
                             </div>
                     </div>
                 </div>
                 <div class="absolute icon_shape__banner right-0 top-[1rem] hidden lg:flex">
-                    <img src="img/icon_banner.png">
+                    <img src="img/icon_banner.png" width="143" height="275" alt="img_icon">
                 </div>
                 <div class="hidden md:flex absolute 3xl:right-[7rem] bottom-[-2.5rem] xl:bottom-[-5.5rem] 2xl:bottom-[-3.5rem] right-0">
-                    <svg class="w-[3.75rem] h-[3.75rem] 2xl:w-[8.25rem] 2xl:h-[5.438rem]" width="84" height="87" viewBox="0 0 84 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="w-[3.75rem] h-[3.75rem] 2xl:w-[5.25rem]  3xl:w-[8.25rem] 3xl:h-[5.438rem]" width="84" height="87" viewBox="0 0 84 87" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M42 80C61.33 80 77 63.6584 77 43.5C77 23.3416 61.33 7 42 7C22.67 7 7 23.3416 7 43.5C7 63.6584 22.67 80 42 80Z" stroke="url(#paint0_linear_1_12235)" stroke-width="14" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         <defs>
                         <linearGradient id="paint0_linear_1_12235" x1="7" y1="43.5" x2="77" y2="43.5" gradientUnits="userSpaceOnUse">
@@ -298,7 +306,7 @@
                     <div class="bg_cus_service_skew perspective-2000 right-0 w-[19rem] h-[16.188rem] sm:w-[22rem]  md:w-[44rem] xl:h-[41.188rem] md:h-[35.188rem] sm:h-[29.188rem]   absolute">
                         
                     </div>
-                    <div class="doctor_cus_service_img w-[15.75rem] h-[19.625rem] sm:w-[28.75rem] sm:h-[35.625rem] sm:bottom-[2.8rem] md:w-[33.75rem] md:h-[42.625rem] 2xl:w-[39.75rem] 2xl:h-[48.625rem] absolute left-[5.5rem] bottom-[1.3rem] sm:left-[6.5rem] xl:left-[-10.5rem] md:bottom-[-1.1rem] lg:left-[19.5rem]  lg:bottom-[-0.6rem] xl:bottom-[-0.7rem] 2xl:left-[-3rem] 3xl:left-[-4.5rem] 2xl:bottom-[-0.3rem] 3xl:bottom-[1.238rem]">
+                    <div class="doctor_cus_service_img w-[15.75rem] h-[19.625rem] sm:w-[28.75rem] sm:h-[35.625rem] sm:bottom-[2.8rem] md:w-[33.75rem] md:h-[42.625rem] 2xl:w-[39.75rem] 2xl:h-[48.625rem] absolute left-[5.5rem] bottom-[1.1rem] sm:left-[6.5rem] xl:left-[-10.5rem] md:bottom-[-0.8rem] lg:left-[19.5rem]  lg:bottom-[-0.6rem] xl:bottom-[-0.7rem] 2xl:left-[-3rem] 3xl:left-[-4.5rem] 2xl:bottom-[-0.3rem] 3xl:bottom-[1.238rem]">
                         <img src="img/doctor_cus_service.png">
 
                     </div>
@@ -392,50 +400,50 @@
                         <div class="swiper swiper_img_customer swiper_img_customer_container ">
                             <div class="swiper-wrapper swiper-wrapper_img_customer">
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img1.png  " alt="img_cus">
+                                    <img src="img/cus_img1.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img2.png  " alt="img_cus">
+                                    <img src="img/cus_img2.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img3.png  " alt="img_cus">
+                                    <img src="img/cus_img3.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img4.png  " alt="img_cus">
+                                    <img src="img/cus_img4.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img5.png  " alt="img_cus">
+                                    <img src="img/cus_img5.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img6.png  " alt="img_cus">
+                                    <img src="img/cus_img6.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img7.png  " alt="img_cus">
+                                    <img src="img/cus_img7.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img8.png  " alt="img_cus">
+                                    <img src="img/cus_img8.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img9.png  " alt="img_cus">
+                                    <img src="img/cus_img9.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img1.png  " alt="img_cus">
+                                    <img src="img/cus_img1.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img2.png  " alt="img_cus">
+                                    <img src="img/cus_img2.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img3.png  " alt="img_cus">
+                                    <img src="img/cus_img3.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img4.png  " alt="img_cus">
+                                    <img src="img/cus_img4.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img4.png  " alt="img_cus">
+                                    <img src="img/cus_img4.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <div  class="swiper-slide swiper-slide-img-customer w-[20.625rem] sm:w-[25.063rem] h-[14.625rem] rounded-[0.625rem] border-[0.063rem] border-[#FFFFFF] img_cus_items">
-                                    <img src="img/cus_img6.png  " alt="img_cus">
+                                    <img src="img/cus_img6.png  " alt="img_cus" width="384" height="234">
                                 </div>
                                 <!-- <div class="swiper-slide swiper-slide-img-customer ">
                                     <div class="grid grid-cols-3    slide-img-cus_grid">
@@ -608,7 +616,7 @@
                     
                     
                 </div>
-                <div class="xl:absolute top-[11.688rem] 3xl:right-[16rem] right-[1rem] 2xl:right-[4rem]">
+                <div class="xl:absolute cus_ques_scroll top-[11.688rem] 3xl:right-[16rem] right-[1rem] 2xl:right-[4rem] max-h-none xl:h-[45.188rem] xl:overflow-y-scroll">
                     <div class="flex flex-col px-[0.938rem] xl:px-0">
                         <div class="flex items-center text-center gap-[0.75rem]">
                             <p class="w-[4.313rem] h-[0.063rem] bg-gradient-to-br from-[#3EED8B] to-[#0A9949]"></p>
@@ -622,7 +630,7 @@
                                
                                 <div class="flex flex-col gap-[0.5rem] ">
                                     <p class="text-[#252525] leading-[1.2rem] text-[0.875rem] sm:text-[1rem] font-[600] text-justify ">Bệnh viện Đa khoa Phương Đông có dịch vụ thai sản trọn gói không?</p>
-                                    <p class="toggle-content hidden text-[#454545] leading-[1.2rem]  text-[0.813rem] sm:text-[1rem] font-[400] text-justify">Được khám chữa bệnh bằng phương pháp an toàn, hiệu quả; phù hợp với tình trạng bệnh tật và nhu cầu của người bệnh.</p>
+                                    <p class="toggle-content hidden  text-[#454545] leading-[1.2rem]  text-[0.813rem] sm:text-[1rem] font-[400] text-justify">Được khám chữa bệnh bằng phương pháp an toàn, hiệu quả; phù hợp với tình trạng bệnh tật và nhu cầu của người bệnh.</p>
                                 </div>
                                 <div class=" w-[1.25rem] h-[1.25rem] md:flex cursor-pointer toggle-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#4BAE4F" class="size-5 ">
@@ -765,7 +773,7 @@
     <section class="section_procedure">
         <div class="container mx-auto">
             <div class=" relative mt-[3.125rem] xl:mt-0">
-                <div class="flex flex-col gap-[0.5rem] items-center justify-center mb-[2.5rem]">
+                <div class="flex flex-col gap-[0.5rem] items-center justify-center mb-[5.5rem] sm:mb-[2.5rem]">
                     <div class="flex items-center justify-center text-center gap-[0.75rem]">
                         <p class="w-[2.063rem] h-[0.063rem] bg-gradient-to-br from-[#3EED8B] to-[#0A9949]"></p>
                         <p class="font-[700] uppercase text-[0.875rem] bg-gradient-to-br from-[#3EED8B] to-[#0A9949] bg-clip-text text-transparent tracking-[0.188rem]">Quy trình</p>
@@ -776,12 +784,12 @@
                 </div>
 
                 <div class="relative">
-                    <div class="bg_shape_procedure  flex justify-center items-center w-full h-[78.25rem] md:h-[47.25rem] lg:h-[33.25rem] xl:h-[39.25rem] mx-auto">
+                    <div class="bg_shape_procedure  flex justify-center items-center w-full h-[74.25rem] sm:h-[78.25rem] md:h-[47.25rem] lg:h-[33.25rem] xl:h-[39.25rem] mx-auto">
 
                         
 
                     </div> 
-                    <div class="absolute left-0 sm:left-[-60%] top-[-1.5%] md:top-[6%]  md:left-[19%] lg:left-[18%] xl:left-[24.7%] lg:top-[-56%] xl:top-[-46%] 2xl:left-[28%] 3xl:-top-[51%] 3xl:left-1/3 w-full h-full md:w-[44rem] md:h-[44rem] rounded-full border-[0.125rem] border-none border-[#FFFFFF] 3xl:scale-100 xl:scale-[0.78] md:scale-[0.6] lg:scale-[0.64]  scale-100" >
+                    <div class="absolute left-0 sm:left-[-60%] top-[-2.5%] sm:top-[-1.5%] md:top-[6%]  md:left-[19%] lg:left-[18%] xl:left-[24.7%] lg:top-[-56%] xl:top-[-46%] 2xl:left-[28%] 3xl:-top-[51%] 3xl:left-1/3 w-full h-full md:w-[44rem] md:h-[44rem] rounded-full border-[0.125rem] border-none border-[#FFFFFF] 3xl:scale-100 xl:scale-[0.78] md:scale-[0.6] lg:scale-[0.64]  scale-100" >
                         
                        <div class="relative md:left-[-23.375rem] xl:-left-1/2 w-full h-full grid grid-cols-1 gap-[1rem] md:gap-0 md:flex justify-center items-center cursor-pointer">
 
@@ -1079,7 +1087,7 @@
                        </div>
                     </div>
 
-                    <div class="absolute md:left-[-0.625rem]  xl:left-0 flex flex-col gap-[1rem] sm:gap-[1.5rem] lg:top-[6rem] xl:top-[7.5rem] md:bottom-0 bottom-[-4rem] w-full items-center">
+                    <div class="absolute md:left-[-0.625rem]  xl:left-0 flex flex-col gap-[1rem] sm:gap-[1.5rem] lg:top-[6rem] xl:top-[7.5rem] md:bottom-0 bottom-[-2rem] sm:bottom-[-4rem] w-full items-center">
                       
                         <button class="flex items-center  w-[7.5rem] justify-evenly bg-gradient-to-b from-[#FFB469] to-[#E57709] hover:from-[#FFD27A] hover:to-[#FF9B30] rounded-[1.438rem] uppercase text-[#FFFFFF] shadow-text-res
                         sm:justify-center sm:w-[10rem]  md:w-[13.438rem] h-[2.625rem] sm:h-[2.875rem]  sm:space-x-[0.5rem]">
@@ -1181,7 +1189,8 @@
                                             
                         
                                     </div>
-                                    <div class="swiper-button-prev  cus_table_price_prev  sm:w-[2.25rem] sm:h-[2.25rem] w-[1.752] h-[1.75rem]">
+
+                                    <div class="swiper-button-prev cus_table_price_prev  sm:w-[2.25rem] sm:h-[2.25rem] w-[1.752] h-[1.75rem]">
                                         <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="18" cy="18" r="17" transform="matrix(-1 0 0 1 36 0)" fill="white" stroke="url(#paint0_linear_1_12514)" stroke-width="2"/>
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M17.2929 10.2929C17.6834 9.90237 18.3166 9.90237 18.7071 10.2929C19.0976 10.6834 19.0976 11.3166 18.7071 11.7071L13.4142 17H25C25.5523 17 26 17.4477 26 18C26 18.5523 25.5523 19 25 19H13.4142L18.7071 24.2929C19.0976 24.6834 19.0976 25.3166 18.7071 25.7071C18.3166 26.0976 17.6834 26.0976 17.2929 25.7071L10.2936 18.7078C10.2912 18.7054 10.2888 18.703 10.2864 18.7005C10.1099 18.5208 10.0008 18.2746 10 18.003C10 18.002 10 18.001 10 18C10 17.999 10 17.998 10 17.997C10.0004 17.8625 10.0273 17.7343 10.0759 17.6172C10.1236 17.502 10.1937 17.3938 10.2864 17.2995C10.2888 17.297 10.2911 17.2947 10.2935 17.2923M17.2929 10.2929L10.2935 17.2923L17.2929 10.2929Z" fill="url(#paint1_linear_1_12514)"/>
@@ -1197,6 +1206,7 @@
                                             </defs>
                                             </svg>    
                                     </div>
+                                    
                                 </div>
                         </div>
 
@@ -1653,10 +1663,10 @@
         </div>
      </section>
 
-
+     <!-- section_register -->
      <section class="section_register">
         <div class="container mx-auto">
-            <div class="w-full mt-[2.5rem] lg:mt-[5.5rem]">
+            <div class="w-full section_register_container mt-[2.5rem] lg:mt-[5.5rem]">
                 <div class="bg_register bg_register_table h-[48.125rem] sm:h-[56.125rem] lg:h-[70.125rem] 2xl:h-[39.125rem] w-full " style="background-image: url('img/bg_register.png');  background-size: cover; background-repeat: no-repeat; background-position: center;">
                     <div class="w-full h-full bg-gradient_register">
                         <div class="2xl:flex-row flex-col flex justify-center gap-[2rem] sm:gap-[3rem] lg:gap-[6rem] 2xl:gap-[8.188rem] items-center h-full">
@@ -1703,6 +1713,7 @@
         </div>
      </section>
 
+<!-- footer start -->
      <footer class="">
         <div class="container mx-auto">
             <div class="relative w-full  bg-gradient-to-r from-[#16A085] to-[#F4D03F] ">
