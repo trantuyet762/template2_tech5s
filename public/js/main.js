@@ -178,8 +178,21 @@ var swiper_table_service = new Swiper(".swiper_table_service_container", {
        }
     },
   });
-  var width_ = window.innerWidth;
-if (width_ > 1023) {
-  var wow = new WOW();
-  wow.init();
+
+
+
+var Anima = {
+  initAnimation: function() {
+      var width_ = window.innerWidth;
+      if (width_ > 1023) {
+          var wow = new WOW();
+          wow.init();
+      }
+  },
+init: function() {
+  Anima.initAnimation();
 }
+}
+document.addEventListener('DOMContentLoaded', function() {
+Anima.init();
+});

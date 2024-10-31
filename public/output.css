@@ -2810,8 +2810,8 @@ video {
     bottom: -5.5rem;
   }
 
-  .xl\:bottom-\[-5rem\] {
-    bottom: -5rem;
+  .xl\:bottom-\[-6rem\] {
+    bottom: -6rem;
   }
 
   .xl\:bottom-\[0\.57rem\] {
@@ -2848,10 +2848,6 @@ video {
 
   .xl\:top-\[83\%\] {
     top: 83%;
-  }
-
-  .xl\:bottom-\[-6rem\] {
-    bottom: -6rem;
   }
 
   .xl\:mx-\[6\.25rem\] {
