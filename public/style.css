@@ -237,7 +237,7 @@
  .img_doctor_header img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 
  }
  @media(max-width: 1919px){
@@ -245,6 +245,8 @@
     object-fit: cover;
     height: auto;
     width: 85%;
+    object-fit: cover;
+
  }
  }
  @media(max-width: 1279px){

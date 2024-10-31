@@ -1,3 +1,5 @@
+
+
 const topMenu= document.getElementById('top-menu')
 const toggleTopMenu= document.getElementById('toggle-top-menu-icon')
 const overlay = document.getElementById('menu-overlay');
@@ -176,3 +178,8 @@ var swiper_table_service = new Swiper(".swiper_table_service_container", {
        }
     },
   });
+  var width_ = window.innerWidth;
+if (width_ > 1023) {
+  var wow = new WOW();
+  wow.init();
+}
